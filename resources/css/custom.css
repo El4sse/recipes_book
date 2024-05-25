@@ -1,0 +1,20 @@
+
+.pagination .page-link {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.pagination .page-item .page-link {
+  padding: 0.25rem 0.5rem; /* Adjust padding for smaller arrows */
+  font-size: 0.875rem; /* Adjust font size for smaller arrows */
+}
+
+.pagination .page-item.disabled .page-link,
+.pagination .page-item.active .page-link {
+  font-size: 0.875rem; /* Adjust font size for disabled and active states */
+}
+
+.pagination .page-link svg {
+  width: 1em;
+  height: 1em; /* Ensure SVG icons are the right size */
+}
